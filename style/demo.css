@@ -1,0 +1,30 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+#main #post .post__content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+@media (max-width: 575px) {
+  #main #post .post__content {
+    flex-wrap: wrap;
+  }
+}
+#main #post .post__content-title {
+  text-align: center;
+}
+#main #post .post__content-title .color-text {
+  color: #23A6F0;
+  cursor: pointer;
+}
+@media (max-width: 575px) {
+  #main #post .post__content-img img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=demo.css.map */
